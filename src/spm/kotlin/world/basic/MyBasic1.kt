@@ -6,8 +6,6 @@ internal object MyBasic1 {
 
     const val MAX_LEN = 20
 
-
-
     val s1 by lazy { 123 }
 
     val s: String?

@@ -2,13 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/1.introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/1.introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/2.basicsOFKotlin.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/2.basicsOFKotlin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/3.controlStrcture.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/3.controlStrcture.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/4.classesAndObjects.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/4.classesAndObjects.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMe/5.functionsAndLambda.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/5.functionsAndLambda.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/6.collections.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/6.collections.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/HigherOrderFunction.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/HigherOrderFunction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics$filterExample$$inlined$sortedBy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Basics$filterExample$$inlined$sortedBy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Basics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/Basic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/Basic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/ConstsVsVal$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/ConstsVsVal$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/ConstsVsVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/ConstsVsVal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic1$s1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic1$s1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic2$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic2$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/NullPointerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/NullPointerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/HelloKotlinKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/HelloKotlinKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/KotlinDatatype$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/KotlinDatatype.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/KotlinDatatype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/KotlinDatatypeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/KotlinDatatypeKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/collections/ColectionMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/collections/ColectionMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/collections/ListOperationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/collections/ListOperationMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/collections/MapOperationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/collections/MapOperationMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/collections/SetOperationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/collections/SetOperationMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/controlFlow/IfElse1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/controlFlow/IfElse1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/delegatesInKotlin/BirdInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/delegatesInKotlin/BirdInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/delegatesInKotlin/Cockoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/delegatesInKotlin/Cockoo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/delegatesInKotlin/Eagle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/delegatesInKotlin/Eagle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/delegatesInKotlin/MainUseOfDelegateKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/delegatesInKotlin/MainUseOfDelegateKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/doWhile/DowhileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/doWhile/DowhileLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/doWhile/WhileMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/doWhile/WhileMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/CardType$GOLD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/CardType$GOLD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/CardType$PLATINUM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/CardType$PLATINUM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/CardType$SILVER.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/CardType$SILVER.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/CardType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/CardType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/DayOfWeek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/DayOfWeek.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/EnumClass1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/EnumClass1Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/ICardLimit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/enumExample/ICardLimit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/ExtFUnctionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/ExtFUnctionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/ExtensionFunExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/ExtensionFunExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/forLoop/For.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/forLoop/For.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/forLoop/ForMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/forLoop/ForMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/AnonymousFunctionExampleKt$anonymous1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/AnonymousFunctionExampleKt$anonymous1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/AnonymousFunctionExampleKt$anonymous2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/AnonymousFunctionExampleKt$anonymous2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/AnonymousFunctionExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/AnonymousFunctionExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/DefaultArgumentFunctionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/DefaultArgumentFunctionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/Function1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/Function1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/FunctionExample1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/FunctionExample1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/FunctionMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/FunctionMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/InfixFunctionExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/InfixFunctionExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$find$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$find$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$lambda4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$lambda4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$sum1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$sum1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$sum2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$sum2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$sum3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$sum3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$sum4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$sum4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$sumAsString$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt$sumAsString$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/LambdaExpExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/NamedArgumentFunctionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/NamedArgumentFunctionKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/Execute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/Execute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/hiigherOrderFUnction/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/tailrecFunction/TailRecFunctionExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/tailrecFunction/TailRecFunctionExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/initBlockExample/InitBlockDemo$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/initBlockExample/InitBlockDemo$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/initBlockExample/InitBlockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/initBlockExample/InitBlockDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/nullpointer_handling/NullPointerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/nullpointer_handling/NullPointerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/MyObject1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/MyObject1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/abstractClass/MyAbstractClassMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/abstractClass/MyAbstractClassMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/basic/DontCreateMe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/basic/DontCreateMe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/basic/InitOrderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/basic/InitOrderDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/basic/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/basic/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/basic/Person1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/basic/Person1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/dataClss/MyDataClassMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/dataClss/MyDataClassMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/delegate/My7DelegateMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/delegate/My7DelegateMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/inheritance/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/inheritance/Bar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/inheritance/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/inheritance/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/inheritance/Derived.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/inheritance/Derived.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/inheritance/Foo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/inheritance/Foo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/inheritance/MyInheritanceMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/inheritance/MyInheritanceMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/interfc/MyInterfaceMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/interfc/MyInterfaceMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/sealedClass/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/sealedClass/Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/sealedClass/Expr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/sealedClass/Expr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/sealedClass/NotANumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/sealedClass/NotANumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/sealedClass/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/sealedClass/Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/sealedClass/UseOfSealedMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/objectAndClass/sealedClass/UseOfSealedMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/opetorExample/OperatorMain$useOfLazy$lazyValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/opetorExample/OperatorMain$useOfLazy$lazyValue$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/opetorExample/OperatorMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/opetorExample/OperatorMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/opetorExample/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/opetorExample/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/returnAndContinue/BreakExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/returnAndContinue/BreakExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/returnAndContinue/ContinueExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/returnAndContinue/ContinueExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/returnAndContinue/ReturnExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/returnAndContinue/ReturnExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/returnAndContinue/ReturnJumpMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/returnAndContinue/ReturnJumpMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/Fruit$Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/Fruit$Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/Fruit$Orange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/Fruit$Orange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/Fruit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/FruitKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/FruitKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/udemy1/ArrayANdArraylist1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/udemy1/ArrayANdArraylist1Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfAllOperator/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfAllOperator/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfAllOperator/UseOfOperatorExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfAllOperator/UseOfOperatorExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfLazy/LazyExampleKt$main$pi$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfLazy/LazyExampleKt$main$pi$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfLazy/LazyExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfLazy/LazyExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/when/When1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/when/When1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/when/WhenMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/when/WhenMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/whileLoop/WhileLoop1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/whileLoop/WhileLoop1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/whileLoop/WhileMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/whileLoop/WhileMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Welcome.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/basic/ConstsVsVal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/basic/ConstsVsVal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/basic/MyBasic1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/basic/MyBasic1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/extensionFunction/ExtensionFunExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/extensionFunction/ExtensionFunExample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/nullpointer_handling/NullPointerMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/nullpointer_handling/NullPointerMain.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +161,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544790725473" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -61,7 +181,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.spm.kotlin.world.opetorExample.OperatorMain">
+  <component name="RunManager" selected="Kotlin.HigherOrderFunction1Kt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -81,67 +201,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfixFunctionExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="HigherOrderFunction1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.higherOrderFunctions.HigherOrderFunction1Kt" />
       <module name="Workspace" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InfixFunctionExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.function.InfixFunctionExampleKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="Workspace" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LambdaExpExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Workspace" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.function.LambdaExpExampleKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="Workspace" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="spm.kotlin.world.opetorExample.OperatorMain" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Workspace" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.opetorExample.OperatorMain" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="spm.kotlin.world.sealedClass.FruitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.sealedClass.FruitKt" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Workspace" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="Workspace" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,17 +255,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InfixFunctionExampleKt" />
-      <item itemvalue="Application.LambdaExpExampleKt" />
-      <item itemvalue="Application.spm.kotlin.world.opetorExample.OperatorMain" />
-      <item itemvalue="Application.spm.kotlin.world.sealedClass.FruitKt" />
-      <item itemvalue="Application.spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" />
+      <item itemvalue="Kotlin.InfixFunctionExampleKt" />
+      <item itemvalue="Kotlin.LambdaExpExampleKt" />
+      <item itemvalue="Kotlin.spm.kotlin.world.opetorExample.OperatorMain" />
+      <item itemvalue="Kotlin.spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" />
+      <item itemvalue="Kotlin.HigherOrderFunction1Kt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.spm.kotlin.world.opetorExample.OperatorMain" />
-        <item itemvalue="Application.LambdaExpExampleKt" />
-        <item itemvalue="Application.InfixFunctionExampleKt" />
+        <item itemvalue="Kotlin.HigherOrderFunction1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -212,42 +300,6 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Added Kotlin Coroutines example" />
     <option name="LAST_COMMIT_MESSAGE" value="Added Kotlin Coroutines example" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="240" y="25" key="#Plugins" timestamp="1607176403856">
-      <screen x="0" y="25" width="1280" height="689" />
-    </state>
-    <state x="240" y="25" key="#Plugins/0.25.1280.689@0.25.1280.689" timestamp="1607176403856" />
-    <state x="565" y="338" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1607153721519" />
-    <state x="565" y="338" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.808@0.23.1440.808" timestamp="1607153721522" />
-    <state width="1238" height="205" key="GridCell.Tab.0.bottom" timestamp="1614241862672">
-      <screen x="0" y="25" width="1280" height="689" />
-    </state>
-    <state width="1870" height="311" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
-    <state width="1238" height="205" key="GridCell.Tab.0.bottom/0.25.1280.689@0.25.1280.689" timestamp="1614241862672" />
-    <state width="1238" height="205" key="GridCell.Tab.0.center" timestamp="1614241862672">
-      <screen x="0" y="25" width="1280" height="689" />
-    </state>
-    <state width="1870" height="311" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
-    <state width="1238" height="205" key="GridCell.Tab.0.center/0.25.1280.689@0.25.1280.689" timestamp="1614241862672" />
-    <state width="1238" height="205" key="GridCell.Tab.0.left" timestamp="1614241862671">
-      <screen x="0" y="25" width="1280" height="689" />
-    </state>
-    <state width="1870" height="311" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
-    <state width="1238" height="205" key="GridCell.Tab.0.left/0.25.1280.689@0.25.1280.689" timestamp="1614241862671" />
-    <state width="1238" height="205" key="GridCell.Tab.0.right" timestamp="1614241862672">
-      <screen x="0" y="25" width="1280" height="689" />
-    </state>
-    <state width="1870" height="311" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
-    <state width="1238" height="205" key="GridCell.Tab.0.right/0.25.1280.689@0.25.1280.689" timestamp="1614241862672" />
-    <state x="469" y="152" key="SettingsEditor" timestamp="1607153721522" />
-    <state x="469" y="152" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
-    <state x="636" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1607153721522" />
-    <state x="636" y="346" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
-    <state x="305" y="38" width="670" height="676" key="search.everywhere.popup" timestamp="1607244292693">
-      <screen x="0" y="25" width="1280" height="689" />
-    </state>
-    <state x="305" y="38" width="670" height="676" key="search.everywhere.popup/0.25.1280.689@0.25.1280.689" timestamp="1607244292693" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

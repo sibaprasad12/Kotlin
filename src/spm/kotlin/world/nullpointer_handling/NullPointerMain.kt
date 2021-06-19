@@ -116,7 +116,7 @@ object NullPointerMain {
         b = null
 
         try {
-            val l = b!!.length
+           // val l = b.length
         }
         catch (e:Exception){
             print("Null pointer exception")

@@ -20,10 +20,6 @@ fun main(args: Array<String>) {
     val  num3 = 123
     val greaterNum = num3.isGreaterNumber(13)
     println("The greater number is $greaterNum")
-
-
-
-
 }
 
 fun Student.isScholar(mark:Int):String{
