@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ReadMe/JavaKotlinCalling.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/JavaKotlinCalling.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/1.introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/1.introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/2.basicsOFKotlin.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/2.basicsOFKotlin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/3.controlStrcture.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/3.controlStrcture.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/4.classesAndObjects.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/4.classesAndObjects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/5.functionsAndLambda.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/5.functionsAndLambda.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/6.collections.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/6.collections.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
