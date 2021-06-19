@@ -1,1 +1,22 @@
-# Higher Order Function## What is High level/ order function - Functions that accepts function as parameter- Can return a function- or can do both the above## Lambdas- It is just a function with no name- Here is the example of lambda expression- here s is parameter, after arrow is the body of the lambda expression```{s -> println(s)} // val test: String  = "Hello"val myLambda1 : (Int) -> Unit = {s:Int -> println(s)}val myLambda2 : (String) -> String = {s:String -> s}```- In the myLambda1, the input s is Int so at left side we defined Int in bracket and the output of the lambda expression is void, so we defined Unit after the arrow at the left side of the expression- In the myLambda2, the input s is String, so at left side we defined String in bracket and the output of the lambda expression is String, so we defined String after the arrow at the left side of the expression## Details of lambda and Higher order function![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+# Higher Order Function
+## What is High level/ order function 
+- Functions that accepts function as parameter
+- Can return a function
+- or can do both the above
+
+## Lambdas
+- It is just a function with no name
+- Here is the example of lambda expression
+- here s is parameter, after arrow is the body of the lambda expression
+```
+{s -> println(s)} // 
+
+val test: String  = "Hello"
+val myLambda1 : (Int) -> Unit = {s:Int -> println(s)}
+val myLambda2 : (String) -> String = {s:String -> s}
+```
+- In the myLambda1, the input s is Int so at left side we defined Int in bracket and the output of the lambda expression is void, so we defined Unit after the arrow at the left side of the expression
+- In the myLambda2, the input s is String, so at left side we defined String in bracket and the output of the lambda expression is String, so we defined String after the arrow at the left side of the expression
+
+## Details of lambda and Higher order function
+![alt text](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/images/LambdasAndHingerOrderFun1.png)
