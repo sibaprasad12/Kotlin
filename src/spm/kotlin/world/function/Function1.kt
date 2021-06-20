@@ -2,22 +2,28 @@ package spm.kotlin.world.function
 
 open class Function1 {
 
-    fun printName(name:String){
+    fun printName(name: String) {
         println("FUnction with Parameters ${name}")
 
 
     }
 
-    fun printName():Unit{
+    fun printName(): Unit {
         println("FUnction without Parameters ")
     }
 
-    fun printName1(name:String = "Sibaprasad"):Unit{
+    /**
+     * Function with default parameters
+     */
+    fun printName1(name: String = "Sibaprasad"): Unit {
         println("FUnction without Parameters ${name}")
     }
 
-    fun sum(a:Int,b:Int,c:Int){
-        println("Sum of $a , $b and $c is ${a+b-c}")
+    /**
+     * FUnction with multiple parameters
+     */
+    fun sum(a: Int, b: Int, c: Int) {
+        println("Sum of $a , $b and $c is ${a + b - c}")
     }
 
 }

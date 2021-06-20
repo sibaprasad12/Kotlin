@@ -7,8 +7,7 @@ package spm.kotlin.world.`when`
 class When1 {
 
 
-
-    fun whenFun1(x:Int = 12):Unit{
+    fun whenFun1(x: Int = 12): Unit {
         when (x) {
             0, 1 -> print("x == 0 or x == 1")
             1 -> print("x == 1")
@@ -18,23 +17,24 @@ class When1 {
             }
         }
     }
-    fun whenFUn2(s:Int){
 
-        when(s) {
+    fun whenFUn2(s: Int) {
+
+        when (s) {
             parseInt(s) -> print("s encodes x")
             else -> print("s does not encode x")
         }
     }
 
-    fun parseInt(s:Int):Int{
+    fun parseInt(s: Int): Int {
         var max = 0
         return max
     }
 
-    fun whenFUn3(x:Int){
+    fun whenFUn3(x: Int) {
 
 
-        val validNumbers = arrayOf(1,2,3,4)
+        val validNumbers = arrayOf(1, 2, 3, 4)
 
         when (x) {
             in 1..10 -> {

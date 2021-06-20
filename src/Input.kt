@@ -1,6 +1,6 @@
 import java.util.*
 
-internal object input{
+internal object input {
     fun main(args: Array<String>) {
 
         // Creates an instance which takes input from standard input (keyboard)
@@ -8,7 +8,7 @@ internal object input{
         print("Enter a number: ")
 
         // nextInt() reads the next integer from the keyboard
-        var integer:Int = reader.nextInt()
+        var integer: Int = reader.nextInt()
 
         println("You entered: $integer")
     }

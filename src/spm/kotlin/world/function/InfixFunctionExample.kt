@@ -11,10 +11,9 @@ fun main(args: Array<String>) {
 }
 
 
-infix fun Int.greaterValue(other:Int):Int{
-    if(this > other){
-        return this
-    }
+infix fun Int.greaterValue(other: Int): Int {
+    return if (this > other)
+        this
     else
-        return other
+        other
 }

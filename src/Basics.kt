@@ -4,15 +4,16 @@ import kotlin.properties.Delegates
 internal object Basics {
 
     lateinit var testInit: String
-     var abc: String? = ""
+    var abc: String? = ""
     var testDelegate by Delegates.notNull<String>()
+
     @JvmStatic
     fun main(args: Array<String>) {
 
         val init: InitBlockDemo = InitBlockDemo()
         init.printInstanceMethod()
         InitBlockDemo.print()
-        
+
         val nan = Double.NaN
         println("1: " + (nan == nan))
         println("2: " + (nan == (nan as Number)))
@@ -21,21 +22,21 @@ internal object Basics {
 //        var der = Derived("spm mohanty","Moh")
 //
         var name1 = "Sibaprasad"
-        val myVar1 = "Hello Mr. Sibaprasad Mohanty".also (::println)
+        val myVar1 = "Hello Mr. Sibaprasad Mohanty".also(::println)
         var myVar2 = "Hello Satya : whats up".also { println("Sibaprasad") }
 
         println(myVar2)
         println(myVar1)
 
-        printSum(12,13)
-        println("sum of ${12} and ${23} is "+returnSum(12,23))
-        println("sum of ${15} and ${45} is "+expressionSum(15,45))
-        println("Max Of of ${15} and ${45} is "+maxOf(15,45))
-        println("Max Of of ${15} and ${45} is "+maxOfExpression(15,45))
-        println("Length of ${"Sibaprasad "} is "+getStringLength("Sibaprasad"))
-        println("Length of ${12345} is "+getStringLength(12345))
+        printSum(12, 13)
+        println("sum of ${12} and ${23} is " + returnSum(12, 23))
+        println("sum of ${15} and ${45} is " + expressionSum(15, 45))
+        println("Max Of of ${15} and ${45} is " + maxOf(15, 45))
+        println("Max Of of ${15} and ${45} is " + maxOfExpression(15, 45))
+        println("Length of ${"Sibaprasad "} is " + getStringLength("Sibaprasad"))
+        println("Length of ${12345} is " + getStringLength(12345))
 
-        println("Length of ${"sib"} is "+getStringLength1("sib"))
+        println("Length of ${"sib"} is " + getStringLength1("sib"))
         forLoopExample()
         forloopWithIndex()
         forExample1()
@@ -45,13 +46,15 @@ internal object Basics {
         println(whenExample2("Sibaprasad"))
         whenExample1(5)
         filterExample()
-        var (a,b)  =  functionWithPair()
+        var (a, b) = functionWithPair()
 
         print("Values are $a and $b")
     }
+
     fun printSum(a: Int, b: Int): Unit {
         println("sum of $a and $b is ${a + b}")
     }
+
     fun returnSum(a: Int, b: Int): Int {
         return a + b
     }
@@ -66,8 +69,9 @@ internal object Basics {
             return b
         }
     }
+
     // if statement as Expression
-    fun maxOfExpression(a: Int, b: Int) = if(a>b) a else b
+    fun maxOfExpression(a: Int, b: Int) = if (a > b) a else b
 
     fun getStringLength(obj: Any): Int? {
         if (obj is String) {
@@ -75,43 +79,46 @@ internal object Basics {
         }
         return null
     }
+
     fun getStringLength1(obj: Any): Int? {
         if (obj !is String) return null
 // `obj` is automatically cast to `String` in this branch
         return obj.length
     }
+
     // for loop
-    fun forLoopExample(){
+    fun forLoopExample() {
         val items = listOf("apple", "banana", "kiwifruit")
         for (item in items) {
             println(item)
         }
     }
 
-    fun forloopWithIndex(){
+    fun forloopWithIndex() {
         val items = listOf("apple", "banana", "kiwifruit")
         for (index in items.indices) {
             println(items[index])
         }
     }
 
-    fun forloopWithIndexAndValue(){
+    fun forloopWithIndexAndValue() {
         val items = listOf("apple", "banana", "kiwifruit")
 
     }
-    fun forExample1(){
+
+    fun forExample1() {
         for (i in 6 downTo 0 step 2) {
             println(i)
         }
     }
 
-    fun forExample2(){
+    fun forExample2() {
         for (i in 6 downTo 0 step 2) {
             println(i)
         }
     }
 
-    fun forExample3(){
+    fun forExample3() {
         println("Forloop with Half Open")
         // half-open range: does not include 100
         for (i in 1 until 10) {
@@ -119,7 +126,7 @@ internal object Basics {
         }
     }
 
-    fun whileExample1(){
+    fun whileExample1() {
         val items = listOf("apple", "banana", "kiwifruit")
         var index = 0
         while (index < items.size) {
@@ -131,7 +138,7 @@ internal object Basics {
 
     fun whenExample1(obj: Any) {
         when (obj) {
-             1 -> "One"
+            1 -> "One"
             "Hello" -> "Greeting"
             is Long -> println("Long")
             in 1..10 -> println("between 1 to 10")
@@ -141,29 +148,31 @@ internal object Basics {
                 println("asdasdada")
             }
             else
-            ->  println("Unknown")
+            -> println("Unknown")
         }
     }
 
     fun whenExample2(obj: Any): String =
-            when (obj) {
-                1
-                -> "One"
-                "Hello"
-                -> "Greeting"
-                is Long
-                -> "Long"
-                !is String -> "Not a string"
-                else
-                -> "Unknown"
-            }
-fun rangeExample1(){
-    val x = 10
-    val y = 9
-    if (x in 1..y+1) {
-        println("fits in range")
+        when (obj) {
+            1
+            -> "One"
+            "Hello"
+            -> "Greeting"
+            is Long
+            -> "Long"
+            !is String -> "Not a string"
+            else
+            -> "Unknown"
+        }
+
+    fun rangeExample1() {
+        val x = 10
+        val y = 9
+        if (x in 1..y + 1) {
+            println("fits in range")
+        }
     }
-}
+
     fun rangeExample2() {
         val list = listOf("a", "b", "c")
         if (-1 !in 0..list.lastIndex) {
@@ -173,7 +182,8 @@ fun rangeExample1(){
             println("list size is out of valid list indices range too")
         }
     }
-    fun rangeInForLoop(){
+
+    fun rangeInForLoop() {
         for (x in 1..10 step 2) {
             print(x)
         }
@@ -183,21 +193,21 @@ fun rangeExample1(){
         }
     }
 
-    fun filterExample(){
-        var fruits = listOf<String>("Oraange","apple","Abcd")
+    fun filterExample() {
+        var fruits = listOf<String>("Oraange", "apple", "Abcd")
         fruits
-                .filter { it.startsWith("a") }
-                .sortedBy { it }
-                .map { it.toUpperCase() }
-                .forEach { println(it) }
+            .filter { it.startsWith("a") }
+            .sortedBy { it }
+            .map { it.toUpperCase() }
+            .forEach { println(it) }
     }
 
 
-    fun functionWithPair(): Pair<String,Long>{
-        return Pair("bar",5)
+    fun functionWithPair(): Pair<String, Long> {
+        return Pair("bar", 5)
     }
 
-    fun lazyExample(){
+    fun lazyExample() {
         // Lazy: It’s same as lazy initialization.
         // Your variable will not be initialized unless
         // you use that variable in your code.
@@ -207,17 +217,17 @@ fun rangeExample1(){
         testString
     }
 
-    fun leteINitExample(){
+    fun leteINitExample() {
         // lateinit: it means you will be initializing
         // the value for this variable before accessing it.
         testInit = "Some value"
-        println("Length of string is "+ testInit.length)
+        println("Length of string is " + testInit.length)
         testInit = "change value"
     }
 
     fun delegateNotNullExample() {
         testDelegate = "Some value"
-        println("Length of string is "+ testDelegate.length)
+        println("Length of string is " + testDelegate.length)
         testDelegate = "change value"
     }
 
