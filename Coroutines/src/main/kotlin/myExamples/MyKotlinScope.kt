@@ -1,0 +1,1 @@
+package myExamplesfun main() {}

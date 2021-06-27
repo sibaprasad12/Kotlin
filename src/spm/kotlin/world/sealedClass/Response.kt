@@ -1,0 +1,1 @@
+package spm.kotlin.world.sealedClassclass Response {}
