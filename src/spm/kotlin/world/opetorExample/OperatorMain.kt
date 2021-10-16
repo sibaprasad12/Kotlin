@@ -1,12 +1,15 @@
 package spm.kotlin.world.opetorExample
 
-object OperatorMain {
 
+    lateinit var myPerson: Person
 
-    @JvmStatic
     fun main(args: Array<String>) {
 //        operator10()
 //        operator11()
+
+//        if(this::myPerson.isInitialized){
+//
+//        }
 
         useOfLazy()
 
@@ -25,6 +28,7 @@ object OperatorMain {
         useOfFIlter()
         // we will get to know different type of operator
 
+        useofMap()
     }
 
     // as
@@ -141,13 +145,16 @@ object OperatorMain {
      - > It doesnot change the object, it only return the value that applied condition
      */
 
-    private fun useOfLet(){
+    private fun useOfLet() {
         println("========== use of LET ==============")
-        val person = Person("Edmund", 42)
+        val person: Person = Person("Siba", 42)
         println(person)
-        val result = person.let { it.age * 2 }
+        val result = person?.let { it.age * 2 }
         println(person)
         println(result)
+        val result1 = person.let { it.age = 2 }
+        println(result1)
+        println(person)
     }
     /** OUTPUT
      * Person(name=Edmund, age=42)
@@ -162,7 +169,7 @@ object OperatorMain {
     but rather just create some side-effects:
      */
 
-    private fun useOfRun(){
+    private fun useOfRun() {
 
         println("==========use of RUN==============")
 
@@ -170,6 +177,10 @@ object OperatorMain {
         val result = person.run { age * 2 }
         println(person)
         println(result)
+        val x = "siba".run {
+            println(toUpperCase())
+            length
+        }
     }
     /** OUTPUT
      * Person(name=Edmund, age=42)
@@ -184,10 +195,12 @@ object OperatorMain {
 
     private fun useOfAlso() {
         println("==========use of ALSO==============")
-        val person = Person("Edmund", 42)
+        val person = Person("Siba", 42)
         println(person)
-        val result = person.also { person -> person.age = 50
-            person.name = person.name.capitalize()}
+        val result = person.also { person1 ->
+            person1.age = 50
+            person1.name = "amit"
+        }
         println("After apply ALso Operator , result is $result")
         println("After apply ALso Operator , the object is $person")
     }
@@ -240,18 +253,34 @@ object OperatorMain {
      * Person(name=Edmund, age=42)
         84
      */
-    private fun useOfFIlter(){
+    private fun useOfFIlter() {
         println("==========use of FILTER==============")
         val originalMap = mapOf("key1" to 1, "key2" to 2, "key3" to 3)
+        val list = listOf(1, 2, 3, 4, 5)
 
         val filteredMap = originalMap.filter { it.value < 2 }
-
         println(filteredMap) // {key1=1}
 // original map has not changed
         println(originalMap) // {key1=1, key2=2, key3=3}
-    }
-    private fun useofMap(){
+
+        val filteredList = list.filter { it < 3 }
+        println(filteredList)
 
     }
+    private fun useofMap() {
+        println("==========use of Map==============")
+        val originalMap = mapOf("key1" to 1, "key2" to 2, "key3" to 3)
+        val list = listOf(1, 2, 3, 4, 5)
 
-}
+        val mappedList = list.map {
+            it * 2
+        }
+
+        println(mappedList) // {key1=1}
+
+        val mappedMap = originalMap.map {
+            it.value * 5
+        }
+        println(mappedMap) // {key1=1}
+
+    }

@@ -6,15 +6,12 @@ sealed class Fruit(var name: String, var type: String) {
         print("Name of  the fruit is $name and type of the fruit is $type ")
         print("\n")
     }
-
     class Apple(name: String, type: String) : Fruit(name, type) {
 
     }
-
     class Orange(name: String, type: String) : Fruit(name, type) {
 
     }
-
 }
 
 fun main(args: Array<String>) {

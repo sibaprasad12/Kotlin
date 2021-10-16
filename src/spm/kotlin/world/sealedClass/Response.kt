@@ -1,1 +1,1 @@
-package spm.kotlin.world.sealedClassclass Response {}
+package spm.kotlin.world.sealedClasssealed class Response {    class Loading : Response()    class Result : Response()    class Fail : Response()}fun main() {    val result = Response.Loading()    when (result) {    }}
