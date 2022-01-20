@@ -1,0 +1,1 @@
+package spm.kotlin.world.collections.anyAllNone/** * Function none returns true if there are no elements that match the given predicate in the collection. */fun main() {    val numbers = listOf(1, -2, 3, -4, 5, -6)            // 1    val allEven = numbers.none { it % 2 == 1 }           // 2    val allLess6 = numbers.none { it > 6 }}

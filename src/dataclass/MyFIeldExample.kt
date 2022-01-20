@@ -1,0 +1,1 @@
+package dataclassclass MyFIeldExample {    var someProperty: String = "defaultValue"        get() = field        set(value) {            field = value.toUpperCase()        }}

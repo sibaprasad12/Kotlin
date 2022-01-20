@@ -1,0 +1,1 @@
+package spm.kotlin.world.collections.anyAllNone/** * Function all returns true if all elements in collection match the given predicate. */fun main() {    val numbers = listOf(1, -2, 3, -4, 5, -6)            // 1    val allEven = numbers.all { it % 2 == 0 }            // 2    val allLess6 = numbers.all { it < 6 }                // 3}

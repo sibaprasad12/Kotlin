@@ -1,0 +1,1 @@
+package spm.kotlin.world.collections.mapFunction/** * map extension function enables you to apply a transformation to all elements in a collection. * It takes a transformer function as a lambda-parameter. */val numbers = listOf(1, -2, 3, -4, 5, -6)     // 1val doubled = numbers.map { x -> x * 2 }      // 2val tripled = numbers.map { it * 3 }          // 3

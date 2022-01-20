@@ -1,92 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Coroutines/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+    <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="Updated basics of kotlin readme file">
+      <change afterPath="$PROJECT_DIR$/ReadMe/INTERVIEWQuestions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataclass/MyDataClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataclass/MyFIeldExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataclass/MyMainJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/collections/anyAllNone/ANyExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/collections/anyAllNone/AllExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/collections/anyAllNone/NoneExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/collections/filter/FilterExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/collections/findFIndLast/FindExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/collections/firstLast/FirstExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/collections/firstLast/LastExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/collections/list/ListExample1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/collections/map/MapExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/collections/mapFunction/MapFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/collections/set/SetExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/dataClass/DataClassExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/enumClasses/ENumClassExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/enumClasses/EnumExample1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/objectKeyword/ObjectKeywordExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/sealedClass/SealedClassExample.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coroutines/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coroutines/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coroutines/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coroutines/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coroutines/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coroutines/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/.idea/Coroutines.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Coroutines/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$delayFUnction$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$delayFUnction$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$delayFUnction$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$delayFUnction$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$delayFUnction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$delayFUnction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$threadSleepFUnction$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$threadSleepFUnction$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$threadSleepFUnction$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$threadSleepFUnction$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$threadSleepFUnction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt$threadSleepFUnction$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/classes/kotlin/main/dispatchers/DelayVsSleepKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/2.basicsOFKotlin.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/2.basicsOFKotlin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics$filterExample$$inlined$sortedBy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Basics$filterExample$$inlined$sortedBy$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Basics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinBasics.md" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinBasics.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/1.introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/1.introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/4.classesAndObjects.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/4.classesAndObjects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/SealedClass.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/SealedClass.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/ExtensionFunExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/ExtensionFunExampleKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/forLoop/For.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/forLoop/ForMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/Function1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/Function1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/Basic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/Basic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/InfixFunctionExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/function/InfixFunctionExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction1Kt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction1Kt$main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction1Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/opetorExample/OperatorMain$useOfLazy$lazyValue$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/opetorExample/OperatorMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfAllOperator/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfAllOperator/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfAllOperator/UseOfOperatorExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfAllOperator/UseOfOperatorExampleKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfLazy/LazyExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/useOfLazy/LazyExampleKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/when/When1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/when/When1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/basic/Basic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/basic/Basic.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/function/InfixFunctionExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/function/InfixFunctionExample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/opetorExample/OperatorMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/opetorExample/OperatorMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/sealedClass/Fruit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/sealedClass/Fruit.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/sealedClass/Response.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/sealedClass/Response.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/singleTon/MySingleTon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/singleTon/MySingleTon.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/Fruit$Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/Fruit$Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/Fruit$Orange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/Fruit$Orange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/FruitKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/FruitKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,11 +62,21 @@
         <option value="FxmlFile" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1VhfiDwoOECXPmTeeRabKkge80Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -144,9 +112,23 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.OperatorMainKt">
+  <component name="RunManager" selected="Kotlin.HigherOrderFunction1Kt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMainJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataclass.MyMainJava" />
+      <module name="Workspace" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,13 +174,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" />
-      <module name="Workspace" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -218,7 +193,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" />
+      <item itemvalue="Application.MyMainJava" />
       <item itemvalue="Kotlin.HigherOrderFunction1Kt" />
       <item itemvalue="Kotlin.ClosureExampleKt" />
       <item itemvalue="Kotlin.ForLoopExamplesKt" />
@@ -226,10 +201,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.HigherOrderFunction1Kt" />
+        <item itemvalue="Application.MyMainJava" />
         <item itemvalue="Kotlin.OperatorMainKt" />
         <item itemvalue="Kotlin.ForLoopExamplesKt" />
         <item itemvalue="Kotlin.ClosureExampleKt" />
-        <item itemvalue="Kotlin.HigherOrderFunction1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -266,14 +242,29 @@
       <option name="project" value="LOCAL" />
       <updated>1624173824391</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated basics of kotlin readme file">
+      <created>1634382151604</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634382151604</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated basics of kotlin readme file">
+      <created>1634452066817</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634452066818</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Added Kotlin Coroutines example" />
     <MESSAGE value="Formatted files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatted files" />
+    <MESSAGE value="Updated basics of kotlin readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated basics of kotlin readme file" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

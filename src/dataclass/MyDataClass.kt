@@ -1,0 +1,1 @@
+package dataclassdata class MyDataClass @JvmOverloads constructor(var name: String, val collegeName: String = "Walke University") {    companion object {        @JvmStatic        var MyAge = 123;        @JvmStatic        fun setAbc() {        }    }}

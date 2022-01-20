@@ -1,20 +1,20 @@
 # Kotlin Basics
 - Example from **https://www.youtube.com/watch?v=VEqhzCFmEQI&list=PLlxmoA0rQ-LwgK1JsnMsakYNACYGa1cjR&index=1**
 ## What is kotlin
-- Its a statically typed language
+- It's a statically typed language
 - It is a JVM language
 - It needs java virtual machine to execute its bytecode.
-- Its fully interoperable with java
+- It's fully interoperable with java
 - Support to avoid NullPointer exception
 - Supports immutability
-- Object oriented Language
+- Object-oriented Language
 - Functional
-  - You can pass a function as parameter to another function
-  - Or, a function can return another function
+    - You can pass a function as parameter to another function
+    - Or, a function can return another function
 - Less ceremony
-  - No more boilerplates
-  - Less code, more reslt
-  - COde looks clean
+    - No more boilerplate
+    - Less code, more result
+    - Code looks clean
 
 ## Evolution of Kotlin
 - Started in july 2011
@@ -37,13 +37,14 @@ fun main(args: Array<String>){
   print("Hello World")
 }
 ```
-- Java deemands class files
+
+- Java demands class files
 - Kotlin needs JVM in runtime similar to java
-- Does Kotlin creates a class internally
-  - Yes, The kotlin compiler internally creates a class file which is loaded into memory for execution in runtime
+- Does Kotlin create a class internally
+    - Yes, The kotlin compiler internally creates a class file which is loaded into memory for execution in runtime
 - Once you will execute the kotlin file, it will create a .class file internally
-- It will saved inside out/production/projectname/ filenamekt.class
-- Its a compile code which is auto generated
+- It will save inside out/production/project name/ filenamekt.class
+- It's a compile code which is auto generated
 
 ## Quick Overview Of Basic Syntax
 - Functions
