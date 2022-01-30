@@ -4,8 +4,6 @@ open class Function1 {
 
     fun printName(name: String) {
         println("FUnction with Parameters ${name}")
-
-
     }
 
     fun printName(): Unit {

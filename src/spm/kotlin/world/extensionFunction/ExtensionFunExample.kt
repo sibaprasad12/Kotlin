@@ -1,5 +1,13 @@
 package spm.kotlin.world.extensionFunction
 
+/**
+ * Adding extra function to a class without extending the class inside different class
+ *
+ * Extension functions are resolved statically", i.e. they are normal static methods bearing no connection with the class they are extending,
+ * other than taking an instance of this class as a parameters.
+ *
+ * https://blog.mindorks.com/extension-functions-vs-static-utility-class
+ */
 fun main(args: Array<String>) {
 
     val st1 = Student()

@@ -1,14 +1,11 @@
 package spm.kotlin.world.controlFlow
 
-class IfElse1 {
+internal object IfElse1 {
 
+    @JvmStatic
     fun main(args: Array<String>) {
-
-        val ctl:IfElse1 = IfElse1()
-
+        val ctl:IfElse1 = IfElse1
         ctl.ifElseMax1()
-
-
     }
 
     /**
