@@ -4,37 +4,49 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="Added kotlin interview questions">
+    <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="Formatted kotlin ream me file&#10;Removed unused read me file">
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$higherfuncMultiply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$lambda2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$lambda_2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$add$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$devideRes$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$div$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$mul$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$mulRes$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$sub$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$subRes$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt$main$sumRes$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/dataClass/DataClassDestructuring.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/dataClass/DataClassHashCode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/sealedClass/SealedClassWIthGenerics.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/src/main/kotlin/CoroutinesBasics1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/src/main/kotlin/CoroutinesBasics1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coroutines/src/main/kotlin/suspendingFUnction/SuspendFunctionExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Coroutines/src/main/kotlin/suspendingFUnction/SuspendFunctionExample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KotlinBasics.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/1.introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/1.introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/2.basicsOFKotlin.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/2.basicsOFKotlin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/3.controlStrcture.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/3.controlStrcture.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/4.classesAndObjects.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/4.classesAndObjects.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/5.functionsAndLambda.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/5.functionsAndLambda.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/COROUTINES.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/COROUTINES.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/HigherOrderFunction.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/HigherOrderFunction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/INTERVIEWQuestions.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/INTERVIEWQuestions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/basic/Basics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/basic/Hello.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/basic/Basic.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/basic/ConstsVsVal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/basic/ConstsVsVal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/basic/HelloKotlin.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/basic/KotlinDatatype.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/basic/KotlinDatatype.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/basic/MyBasic1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/basic/MyBasic1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/basic/MyBasic2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/basic/MyBasic2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/basic/NullPointerExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/basic/NullPointerExample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/extensionFunction/ExtFUnctionExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/extensionFunction/ExtFUnctionExample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/opetorExample/OperatorMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/opetorExample/OperatorMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/sealedClass/SealedClassExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/sealedClass/SealedClassExample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/DataClass.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/DataClass.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe/SealedClass.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/SealedClass.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics$filterExample$$inlined$sortedBy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/Basic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/BasicKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/ConstsVsVal$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/ConstsVsVal$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/HelloKotlinKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/LatExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic2$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic2$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/MyBasic2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/NullPointerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basic/NullPointerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/KotlinDatatype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/KotlinDatatypeKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/basics/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/ExtFUnctionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/extensionFunction/ExtFUnctionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/higherOrderFunctions/HigherOrderFunction1Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/opetorExample/OperatorMainKt$useOfLazy$lazyValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/opetorExample/OperatorMainKt$useOfLazy$lazyValue$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/SealedClassExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/sealedClass/SealedClassExampleKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +62,9 @@
       <list>
         <option value="Kotlin Object" />
         <option value="FxmlFile" />
-        <option value="Kotlin File" />
         <option value="Class" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -67,6 +79,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="3c46e3ce-7610-4b72-a685-e20a0ff53e1c" />
   </component>
   <component name="ProjectId" id="1VhfiDwoOECXPmTeeRabKkge80Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -87,7 +102,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -105,7 +120,7 @@
       <recent name="collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Basics">
+  <component name="RunManager" selected="Kotlin.SealedClassWIthGenericsKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -141,8 +156,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HigherOrderFunction1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.higherOrderFunctions.HigherOrderFunction1Kt" />
+    <configuration name="DataClassDestructuringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.dataClass.DataClassDestructuringKt" />
+      <module name="Workspace" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataClassHashCodeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.dataClass.DataClassHashCodeKt" />
       <module name="Workspace" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,15 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySingleTonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.singleTon.MySingleTonKt" />
-      <module name="Workspace" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperatorMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.opetorExample.OperatorMainKt" />
+    <configuration name="SealedClassWIthGenericsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.sealedClass.SealedClassWIthGenericsKt" />
       <module name="Workspace" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,19 +194,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.HigherOrderFunction1Kt" />
-      <item itemvalue="Kotlin.OperatorMainKt" />
-      <item itemvalue="Kotlin.MySingleTonKt" />
       <item itemvalue="Kotlin.HigherOrderFunction2Kt" />
       <item itemvalue="Kotlin.Basics" />
+      <item itemvalue="Kotlin.DataClassHashCodeKt" />
+      <item itemvalue="Kotlin.DataClassDestructuringKt" />
+      <item itemvalue="Kotlin.SealedClassWIthGenericsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SealedClassWIthGenericsKt" />
+        <item itemvalue="Kotlin.DataClassDestructuringKt" />
+        <item itemvalue="Kotlin.DataClassHashCodeKt" />
         <item itemvalue="Kotlin.Basics" />
         <item itemvalue="Kotlin.HigherOrderFunction2Kt" />
-        <item itemvalue="Kotlin.MySingleTonKt" />
-        <item itemvalue="Kotlin.OperatorMainKt" />
-        <item itemvalue="Kotlin.HigherOrderFunction1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642698134376</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Formatted kotlin ream me file&#10;Removed unused read me file">
+      <created>1644272740620</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1644272740620</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -261,7 +283,8 @@
     <MESSAGE value="Formatted files" />
     <MESSAGE value="Updated basics of kotlin readme file" />
     <MESSAGE value="Added kotlin interview questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added kotlin interview questions" />
+    <MESSAGE value="Formatted kotlin ream me file&#10;Removed unused read me file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatted kotlin ream me file&#10;Removed unused read me file" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
