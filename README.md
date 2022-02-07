@@ -8,11 +8,11 @@
 - ## [Collections](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/6.collections.md)
 - ## [Data Class](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/DataClass.md)
 - ## [Sealed Class](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/SealedClass.md)
-- ## [Java Supported Keywords](https://github.com/sibaprasad12/Kotlin/blob/main/Coroutines/JavaKotlinCalling.md)
+- ## [Java Supported Keywords](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/JavaKotlinCalling.md)
 - ## [Operators](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/8.operators.md)
-- ## [Higher Order Function](https://github.com/sibaprasad12/Kotlin/blob/main/Coroutines/HigherOrderFunction.md)
+- ## [Higher Order Function](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/HigherOrderFunction.md)
 - ## [Coroutines](https://github.com/sibaprasad12/Kotlin/blob/main/Coroutines/README.md)
-- ## [INTERVIEW QUESTIONS](https://github.com/sibaprasad12/Kotlin/blob/main/Coroutines/INTERVIEWQuestions.md)
+- ## [INTERVIEW QUESTIONS](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/INTERVIEWQuestions.md)
 
 # Libraries  
 - https://kotlinlang.org/spec/introduction.html#compatibility
