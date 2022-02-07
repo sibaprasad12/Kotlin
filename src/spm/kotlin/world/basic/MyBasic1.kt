@@ -14,7 +14,6 @@ internal object MyBasic1 {
         s = "value"
     }
 
-
     @JvmStatic
     fun main(args: Array<String>) {
 
@@ -24,7 +23,7 @@ internal object MyBasic1 {
             "apple" in items -> println("apple is fine too")
         }
 
-        var breakObj = BreakExample()
+        val breakObj = BreakExample()
 
 
         breakObj.checkGrayCode(1100,1011)

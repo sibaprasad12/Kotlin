@@ -1,15 +1,12 @@
-package spm.kotlin.world.basics
-
+package spm.kotlin.world.basic
 
 internal object KotlinDatatype {
-
 //    Double	64
 //    Float	    32
 //    Long	    64
 //    Int	    32
 //    Short	    16
 //    Byte	     8
-
 
     @JvmStatic
     fun main(args: Array<String>) {
@@ -19,9 +16,6 @@ internal object KotlinDatatype {
         // var b  -> it will show error, because, u have to assign a value if data type is not defined
 
         var b = 12
-
-
-
 
         // we can define number with  underscrore separated for more readability
         // examples are
@@ -44,10 +38,10 @@ internal object KotlinDatatype {
         fun String.mymethod(){
             print("hi")
         }
+
         str.mymethod()
 
         "siba".mymethod()
-
 
         //Explicit Conversions
         var a2: Int? = 1
@@ -58,7 +52,6 @@ internal object KotlinDatatype {
 
         var a4:Int = a3!!.toInt()
         var a5:Float = a3!!.toFloat()
-
 
 //        all the type conversion methods are noted below
 //        toByte(): Byte

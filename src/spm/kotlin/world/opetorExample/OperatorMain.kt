@@ -157,12 +157,12 @@ private fun useOfLazy() {
     println("========== USE OF LAZY OPERATOR ================")
     val lazyValue: String by lazy {
         println("computed!")
-        "Hello"
+        "spm.kotlin.world.basic.Hello"
     }
     println(lazyValue)
 }
 // computed
-// Output =  Hello
+// Output =  spm.kotlin.world.basic.Hello
 
 /**
  *  let is a non-monadic version of map:

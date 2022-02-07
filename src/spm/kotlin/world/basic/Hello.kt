@@ -1,9 +1,11 @@
+package spm.kotlin.world.basic
+
 internal object Hello {
 
     @JvmStatic
     fun main(args: Array<String>) {
 
-        println("Hello, Sibaprasad , welcome to Kotlin")
+        println("spm.kotlin.world.basic.Hello, Sibaprasad , welcome to Kotlin")
 
         useOfINkeyWOrd()
         datatypeTtesting()
@@ -14,13 +16,13 @@ internal object Hello {
     }
 
 
-    fun datatypeTtesting() {
+    private fun datatypeTtesting() {
         var byte1: Byte = 123
-        var short1: Short = 12312
-        var int1: Int = 1231231231
-        var long1: Long = 123123123123
-        var double1: Double = 123334.4
-        var float1: Float = 12.5f
+        val short1: Short = 12312
+        val int1: Int = 1231231231
+        val long1: Long = 123123123123
+        val double1: Double = 123334.4
+        val float1: Float = 12.5f
 
         println("Maximum value of Integer Datatype is : " + Int.MAX_VALUE)
         println("Minimum Value of Integer Datatype is : " + Int.MIN_VALUE)
@@ -53,7 +55,7 @@ internal object Hello {
         println("Type cast from Int $int1 to Char = " + int1.toChar())
     }
 
-    fun useOfINkeyWOrd() {
+    private fun useOfINkeyWOrd() {
         val numbers = intArrayOf(1, 4, 42, -3)
         if (4 in numbers)
             println("$4 is exists in the number array")
@@ -70,7 +72,7 @@ internal object Hello {
         println("$max")
     }
 
-    fun checkIfUseses() {
+    private fun checkIfUseses() {
         // The else branch is mandatory spm.kotlin.world.when using if as an expression.
         val number = -10
 
@@ -83,7 +85,7 @@ internal object Hello {
         println(result)
     }
 
-    fun ifWIthMultipleExpression() {
+    private fun ifWIthMultipleExpression() {
         val a = -9
         val b = -11
 
@@ -99,7 +101,7 @@ internal object Hello {
         println("max = $max")
     }
 
-    fun ifELseIf() {
+    private fun ifELseIf() {
         val number = 0
 
         val result = if (number > 0)
@@ -112,7 +114,7 @@ internal object Hello {
         println("number is $result")
     }
 
-    fun ifWIthNestedIfStatement() {
+    private fun ifWIthNestedIfStatement() {
         val n1 = 3
         val n2 = 5
         val n3 = -2

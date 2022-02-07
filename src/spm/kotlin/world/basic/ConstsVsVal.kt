@@ -15,7 +15,7 @@ class ConstsVsVal {
         const val myName = "Sibaprasad" // this is allowed
         @JvmStatic
         fun main(args: Array<String>) {
-            println("Hello World!")
+            println("spm.kotlin.world.basic.Hello World!")
         }
     }
 

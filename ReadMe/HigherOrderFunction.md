@@ -11,7 +11,7 @@
 ```
 {s -> println(s)} // 
 
-val test: String  = "Hello"
+val test: String  = "spm.kotlin.world.basic.Hello"
 val myLambda1 : (Int) -> Unit = {s:Int -> println(s)}
 val myLambda2 : (String) -> String = {s:String -> s}
 ```

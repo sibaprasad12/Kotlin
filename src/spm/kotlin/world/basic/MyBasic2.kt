@@ -1,13 +1,12 @@
 package spm.kotlin.world.basic
 
-internal object MyBasic2{
+internal object MyBasic2 {
 
-    val myName ="Sibaprasad" as String
+    val myName = "Sibaprasad" as String
     var myAge = 29
 
     // is !is  - used to check the type
     // 123 is Integer - it will return true
-
 
     // as - unsafe cast operator i.e var a :String" = y as String
     // if the above casting not possible , it will through cast exception
@@ -15,10 +14,10 @@ internal object MyBasic2{
     // as? -  safe cast Operator i.e a:String? = y as? String
 
     val b = 123
-   // var a : String = b as String // here it will through exception
+    // var a : String = b as String // here it will through exception
 
-    var x:Int? = 123
-    var y:String? = x as? String
+    var x: Int? = 123
+    var y: String? = x as? String
 
     // we can use @Suppress("UNCHECKED_CAST") before any statement like below
     /*
@@ -29,12 +28,10 @@ internal object MyBasic2{
      */
 
 
-
     @JvmStatic
     fun main(args: Array<String>) {
 
         comparisonBetweenEqualAndDoubleEqual()
-
 
         val text = """
     for (c in "foo")
@@ -46,13 +43,13 @@ internal object MyBasic2{
         nm = nm.plus("SIbaprasad")
         print(nm)
 
-        var num  = 1234
+        var num = 1234
         num = num.plus(1234)
 
     }
 
 
-    fun comparisonBetweenEqualAndDoubleEqual():Unit {
+    private fun comparisonBetweenEqualAndDoubleEqual(): Unit {
         // for Reference equality we use ===
         val a = Integer(10)
         val b = Integer(10)
@@ -68,12 +65,12 @@ internal object MyBasic2{
          *
          */
 
-        println(a===b) // false // because both the variables pointing to different memory address
-        println(a==b)  // true  // because both the content of the both the variable are same , i.e 10
+        println(a === b) // false // because both the variables pointing to different memory address
+        println(a == b)  // true  // because both the content of the both the variable are same , i.e 10
 
-        var c = a
-        println(a===c) // true, because both c and a point to one memory  location where 10 is stored
-        println(a==c) // true ,  because both c and a pointing to the same memoty location
+        val c = a
+        println(a === c) // true, because both c and a point to one memory  location where 10 is stored
+        println(a == c) // true ,  because both c and a pointing to the same memoty location
 
         val hobbies = arrayOf("Hiking, Chess")
         val hobbies2 = arrayOf("Hiking, Chess")
@@ -83,30 +80,30 @@ internal object MyBasic2{
         println(hobbies === hobbies2) // true
 
         print("comparison between the two objects USER \n")
-        var user1 = User("Siba",29)
-        var user2 = User("Siba",29)
+        var user1 = User("Siba", 29)
+        var user2 = User("Siba", 29)
 
         println(user1 == user2)  // true, because it compare the content of the object
         println(user1 === user2) //false, because it compare the reference of the two objects
         println(user1 == user2)
         println(user1 === user2)
     }
+
     data class User(val name: String, val age: Int)
 
-    fun arrayFunctionality(){
+    fun arrayFunctionality() {
         // Creates an Array<String> with values ["0", "1", "4", "9", "16"]
         val asc = Array(5, { i -> (i * i).toString() })
         asc.forEach { println(it) }
     }
 
-    fun useofIfElse(){
+    fun useofIfElse() {
         // if can be use as expression
         // whatever we wrote inside the curly bracket, it will be assigned to the variable maxNumber,
         // 6 will be assigned to maxNumber
-        val maxNumber = if(5>6){
+        val maxNumber = if (5 > 6) {
             5
-        }
-        else{
+        } else {
             6
         }
 
@@ -125,7 +122,7 @@ internal object MyBasic2{
         }
     }
 
-    fun useOfWhen(){
+    fun useOfWhen() {
 
         val x = 123
         when (x) {
@@ -153,27 +150,27 @@ internal object MyBasic2{
         }
     }
 
-    fun useOfForloop(){
-        for(i in 1..10){ // it will print 1 to 10 including 10
-         print(i)
+    fun useOfForloop() {
+        for (i in 1..10) { // it will print 1 to 10 including 10
+            print(i)
         }
-        for(i in 1 until 10){ // it will print 1 to 10 excluding 10
+        for (i in 1 until 10) { // it will print 1 to 10 excluding 10
             print(i)
         }
 
-        for(i in 1..10 step 2){ // it will print 2,4,6,8,10
+        for (i in 1..10 step 2) { // it will print 2,4,6,8,10
             print(i)
         }
 
-        for(i in 6 downTo  2){ // it will print 6 to 2
+        for (i in 6 downTo 2) { // it will print 6 to 2
             print(i)
         }
 
-        for(i in 6 downTo  2 step 2){ // it will print 6 to 2
+        for (i in 6 downTo 2 step 2) { // it will print 6 to 2
             print(i)
         }
 
-        var array = arrayOf(1,2,3,4,5)
+        var array = arrayOf(1, 2, 3, 4, 5)
 
         for ((index, value) in array.withIndex()) {
             println("the element at $index is $value")
@@ -183,7 +180,7 @@ internal object MyBasic2{
         // we can break a particular loop as per the condition with the use of tagged loop
         loop@ for (i in 1..100) {
             for (j in 1..100) {
-                if (i==5) break@loop
+                if (i == 5) break@loop
             }
         }
 
@@ -199,10 +196,10 @@ internal object MyBasic2{
 
     }
 
-    fun useOfWHileLoop(){
-        var a =  10
-        while (a>0){
-            a = a/2
+    fun useOfWHileLoop() {
+        var a = 10
+        while (a > 0) {
+            a = a / 2
         }
     }
 }

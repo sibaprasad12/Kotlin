@@ -9,7 +9,7 @@ internal object ExtFUnctionExample{
 
     @JvmStatic
     fun main(args: Array<String>) {
-        val myString= "Hello Everyone"
+        val myString = "spm.kotlin.world.basic.Hello Everyone"
         val result = myString.removeFirstLastChar()
         println("First character is: $result")
     }

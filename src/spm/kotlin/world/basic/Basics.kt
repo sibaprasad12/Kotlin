@@ -1,10 +1,11 @@
+package spm.kotlin.world.basic
+
 import spm.kotlin.world.initBlockExample.InitBlockDemo
 import kotlin.properties.Delegates
 
 internal object Basics {
 
     lateinit var testInit: String
-    var abc: String? = ""
     var testDelegate by Delegates.notNull<String>()
 
     @JvmStatic
@@ -20,10 +21,10 @@ internal object Basics {
         println("3: " + ((nan as Number) == nan))
 
 //        var der = Derived("spm mohanty","Moh")
-//
+
         var name1 = "Sibaprasad"
         val myVar1 = "Hello Mr. Sibaprasad Mohanty".also(::println)
-        var myVar2 = "Hello Satya : whats up".also { println("Sibaprasad") }
+        val myVar2 = "Hello Satya : whats up".also { println("Sibaprasad") }
 
         println(myVar2)
         println(myVar1)
@@ -51,18 +52,18 @@ internal object Basics {
         print("Values are $a and $b")
     }
 
-    fun printSum(a: Int, b: Int): Unit {
+    private fun printSum(a: Int, b: Int): Unit {
         println("sum of $a and $b is ${a + b}")
     }
 
-    fun returnSum(a: Int, b: Int): Int {
+    private fun returnSum(a: Int, b: Int): Int {
         return a + b
     }
 
     // spm.kotlin.world.function as expression
-    fun expressionSum(a: Int, b: Int) = a + b
+    private fun expressionSum(a: Int, b: Int) = a + b
 
-    fun maxOf(a: Int, b: Int): Int {
+    private fun maxOf(a: Int, b: Int): Int {
         if (a > b) {
             return a
         } else {
@@ -71,30 +72,30 @@ internal object Basics {
     }
 
     // if statement as Expression
-    fun maxOfExpression(a: Int, b: Int) = if (a > b) a else b
+    private fun maxOfExpression(a: Int, b: Int) = if (a > b) a else b
 
-    fun getStringLength(obj: Any): Int? {
+    private fun getStringLength(obj: Any): Int? {
         if (obj is String) {
             return obj.length
         }
         return null
     }
 
-    fun getStringLength1(obj: Any): Int? {
+    private fun getStringLength1(obj: Any): Int? {
         if (obj !is String) return null
 // `obj` is automatically cast to `String` in this branch
         return obj.length
     }
 
     // for loop
-    fun forLoopExample() {
+    private fun forLoopExample() {
         val items = listOf("apple", "banana", "kiwifruit")
         for (item in items) {
             println(item)
         }
     }
 
-    fun forloopWithIndex() {
+    private fun forloopWithIndex() {
         val items = listOf("apple", "banana", "kiwifruit")
         for (index in items.indices) {
             println(items[index])
@@ -106,19 +107,19 @@ internal object Basics {
 
     }
 
-    fun forExample1() {
+    private fun forExample1() {
         for (i in 6 downTo 0 step 2) {
             println(i)
         }
     }
 
-    fun forExample2() {
+    private fun forExample2() {
         for (i in 6 downTo 0 step 2) {
             println(i)
         }
     }
 
-    fun forExample3() {
+    private fun forExample3() {
         println("Forloop with Half Open")
         // half-open range: does not include 100
         for (i in 1 until 10) {
@@ -126,7 +127,7 @@ internal object Basics {
         }
     }
 
-    fun whileExample1() {
+    private fun whileExample1() {
         val items = listOf("apple", "banana", "kiwifruit")
         var index = 0
         while (index < items.size) {
@@ -136,10 +137,10 @@ internal object Basics {
     }
 
 
-    fun whenExample1(obj: Any) {
+    private fun whenExample1(obj: Any) {
         when (obj) {
             1 -> "One"
-            "Hello" -> "Greeting"
+            "spm.kotlin.world.basic.Hello" -> "Greeting"
             is Long -> println("Long")
             in 1..10 -> println("between 1 to 10")
             !is String -> println("Not a string")
@@ -156,7 +157,7 @@ internal object Basics {
         when (obj) {
             1
             -> "One"
-            "Hello"
+            "spm.kotlin.world.basic.Hello"
             -> "Greeting"
             is Long
             -> "Long"
@@ -193,7 +194,7 @@ internal object Basics {
         }
     }
 
-    fun filterExample() {
+    private fun filterExample() {
         var fruits = listOf<String>("Oraange", "apple", "Abcd")
         fruits
             .filter { it.startsWith("a") }
@@ -203,7 +204,7 @@ internal object Basics {
     }
 
 
-    fun functionWithPair(): Pair<String, Long> {
+    private fun functionWithPair(): Pair<String, Long> {
         return Pair("bar", 5)
     }
 

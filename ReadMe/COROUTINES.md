@@ -15,7 +15,7 @@
 - https://medium.com/@elye.project/understanding-suspend-spm.kotlin.world.function-of-coroutines-de26b070c5ed
    
  ## Official Documentation with example
- - [Coroutine Basics](https://kotlinlang.org/docs/reference/coroutines/basics.html)
+ - [Coroutine spm.kotlin.world.basic.Basics](https://kotlinlang.org/docs/reference/coroutines/basics.html)
  - [Cancellation and Timeout](https://kotlinlang.org/docs/reference/coroutines/cancellation-and-timeouts.html)
  - [Composing/Adding Coroutines](https://kotlinlang.org/docs/reference/coroutines/composing-suspending-functions.html)
  - [Coroutine Context & Dispatcher](https://kotlinlang.org/docs/reference/coroutines/coroutine-context-and-dispatchers.html)
@@ -57,7 +57,7 @@
   - 1. Call Back  
   - 2. Rx Java  
   - 3. Coroutines  
-## Basics Of Coroutines
+## spm.kotlin.world.basic.Basics Of Coroutines
 - coroutines are light-weight threads
 - Thread is controlled by OS but coroutines controlled by user.
 - They are launched with launch coroutine builder in a context of some CoroutineScope.
@@ -69,7 +69,7 @@ fun main() {
         delay(1000L) // non-blocking delay for 1 second (default time unit is ms)
         println("World!") // print after delay
     }
-    println("Hello,") // main thread continues while coroutine is delayed
+    println("spm.kotlin.world.basic.Hello,") // main thread continues while coroutine is delayed
     Thread.sleep(2000L) // block main thread for 2 seconds to keep JVM alive
 }
 ```
@@ -80,7 +80,7 @@ fun main() {
         delay(1000L)
         println("World!")
     }
-    println("Hello,") // main thread continues here immediately
+    println("spm.kotlin.world.basic.Hello,") // main thread continues here immediately
     runBlocking {     // but this expression blocks the main thread
         delay(5000L)  // ... while we delay for 2 seconds to keep JVM alive
     }
