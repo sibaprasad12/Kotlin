@@ -1,7 +1,7 @@
 # Kotlin
 - https://play.kotlinlang.org/byExample/01_introduction/01_Hello%20world
 - ## [Introduction](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/1.introduction.md)
-- ## [spm.kotlin.world.basic.Basics Of Kotlin](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/2.basicsOFKotlin.md)
+- ## [Basics Of Kotlin](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/2.basicsOFKotlin.md)
 - ## [Control Structure](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/3.controlStrcture.md)
 - ## [Classes And Objects](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/4.classesAndObjects.md)
 - ## [Functions And Lambda](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/5.functionsAndLambda.md)
@@ -12,6 +12,7 @@
 - ## [Operators](https://github.com/sibaprasad12/Kotlin/blob/main/ReadMe/8.operators.md)
 - ## [Higher Order Function](https://github.com/sibaprasad12/Kotlin/blob/main/Coroutines/HigherOrderFunction.md)
 - ## [Coroutines](https://github.com/sibaprasad12/Kotlin/blob/main/Coroutines/README.md)
+- ## [INTERVIEW QUESTIONS](https://github.com/sibaprasad12/Kotlin/blob/main/Coroutines/INTERVIEWQuestions.md)
 
 # Libraries  
 - https://kotlinlang.org/spec/introduction.html#compatibility
